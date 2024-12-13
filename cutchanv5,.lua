@@ -9,7 +9,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 if table.find(TablePlace,game.PlaceId) then
     _G.Game = "BEND"
     _G.Key = "DVHDZ-NNLXG-772EH"
-    getgenv().Team = "Marines"
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/BF-New.lua"))()
 else
     game.Players.LocalPlayer:Kick("địt mẹ ngu game này dell hỗ trợ")
